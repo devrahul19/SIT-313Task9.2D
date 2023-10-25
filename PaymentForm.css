@@ -1,0 +1,72 @@
+/* Style for the entire payment form container */
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for headings */
+  .payment-form h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .payment-form h2 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+  }
+  
+  /* Style for radio buttons */
+  .payment-form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for form labels and input fields */
+  .payment-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Style for the purchase button */
+  .payment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the congratulations message */
+  .payment-form .success-message {
+    color: #009900;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .payment-form {
+      max-width: 100%;
+    }
+  }
+  

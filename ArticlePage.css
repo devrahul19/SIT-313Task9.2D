@@ -1,0 +1,40 @@
+.articlePage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .article {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .articleAbstract {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .articleText {
+    line-height: 1.5;
+  }
+  
+  .article h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+ 
+  
